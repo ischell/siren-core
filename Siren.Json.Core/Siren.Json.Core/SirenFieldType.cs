@@ -1,0 +1,29 @@
+﻿namespace Siren.Json.Core
+{
+    public enum SirenFieldType
+    {
+        Hidden,
+        Text,
+        Search,
+        Tel,
+        Url,
+        Email,
+        Password,
+        Datetime,
+        Date,
+        Month,
+        Week,
+        Time,
+        DatetimeLocal,
+        Number,
+        Range,
+        Color,
+        Checkbox,
+        Radio,
+        File,
+        Submit,
+        Image,
+        Reset,
+        Button,
+    }
+}
